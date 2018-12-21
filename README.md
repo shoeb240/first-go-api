@@ -4,7 +4,7 @@
 https://golang.org/dl/
 
 ## Directory Structure
-Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. Next, create the following directory structure:
+Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. Next, create the following directory structure within $HOME/go directory:
 
 ```cgo
 bin/
@@ -12,7 +12,7 @@ src/
     github.com/shoeb240/	
 ```
 
-Clone this project from github with the following git command at src/github.com/shoeb240/
+cd to src/github.com/shoeb240/ and clone this project from github with the following git command:
 ```cgo
 git clone http://github.com/shoeb240/first-go-api
 ```
@@ -20,7 +20,6 @@ git clone http://github.com/shoeb240/first-go-api
 Now, you will have the following directory structure:
 ```cgo
 bin/
-    hello                          # command executable
 src/
     github.com/shoeb240/
 	    first-go-api/
