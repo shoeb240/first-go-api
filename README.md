@@ -4,9 +4,9 @@
 https://golang.org/dl/
 
 ## Directory Structure
-Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. 
+Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. Create 'src' and 'bin' directory within 'go' directory. Packages reside inside 'src' directory. 
 
-Now, you can create 'src' and 'bin' directory within 'go' directory and just run the follwoing command to get this project with all dependency packages:
+Now, run the follwoing command to get this project with all dependency packages:
 ```cgo
 go get github.com/shoeb240/first-go-api
 ```
@@ -26,10 +26,18 @@ cd to src/github.com/shoeb240/ and clone this project from github with the follo
 git clone http://github.com/shoeb240/first-go-api
 ```
 
+To download Gorilla Mux pacjake run the following command:
+```cgo
+go get github.com/gorilla/mux
+```
+
+
 Now, you will have the following directory structure:
 ```cgo
 bin/
 src/
+    github.com/gorilla/
+	    mux/
     github.com/shoeb240/
 	    first-go-api/
 	        main.go               # command source
@@ -54,11 +62,6 @@ func RequestHandle() {
 
     http.ListenAndServe(":8081", myRouter)
 }
-```
-
-To download Gorilla Mux pacjake run the following command:
-```cgo
-go get github.com/gorilla/mux
 ```
 
 ## handlers.go
