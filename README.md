@@ -6,7 +6,7 @@ https://golang.org/dl/
 ## Directory Structure
 Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. 
 
-Now, you can just run the follwoing command to get this project with all dependency packages:
+Now, you can create 'src' and 'bin' directory within 'go' directory and just run the follwoing command to get this project with all dependency packages:
 ```cgo
 go get github.com/shoeb240/first-go-api
 ```
