@@ -1,5 +1,34 @@
 # Creating simplest API in GO
 
+## Download and Install Go
+https://golang.org/dl/
+
+## Directory Structure
+Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. Next, create the following directory structure:
+
+```cgo
+bin/
+src/
+    github.com/shoeb240/	
+```
+
+Clone this project from github with the following git command at src/github.com/shoeb240/
+```cgo
+git clone http://github.com/shoeb240/first-go-api
+```
+
+Now, you will have the following directory structure:
+```cgo
+bin/
+    hello                          # command executable
+src/
+    github.com/shoeb240/
+	    first-go-api/
+	        main.go               # command source
+	        route.go               
+	        handlers.go               
+```
+
 ## route.go
 Creating api route '/users' and opening port 8081 to listen to request using gorilla mux
 
