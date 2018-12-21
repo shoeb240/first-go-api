@@ -4,7 +4,16 @@
 https://golang.org/dl/
 
 ## Directory Structure
-Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. Next, create the following directory structure within $HOME/go directory:
+Create a folder 'go' at your home directory as $HOME/go is the default $GOPATH. 
+
+Now, you can just run the follwoing command to get this project with all dependency packages:
+```cgo
+go get github.com/shoeb240/first-go-api
+```
+
+OR
+
+Create the following directory structure within $HOME/go directory:
 
 ```cgo
 bin/
