@@ -47,6 +47,11 @@ func RequestHandle() {
 }
 ```
 
+To download Gorilla Mux pacjake run the following command:
+```cgo
+go get github.com/gorilla/mux
+```
+
 ## handlers.go
 Creating getUsers handler method to respond to the route
 
