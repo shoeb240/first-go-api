@@ -50,7 +50,7 @@ func RequestHandle() {
 ## handlers.go
 Creating getUsers handler method to respond to the route
 
-```
+```go
 package main
 
 import (
@@ -91,5 +91,5 @@ Waiting for request to serve...
 
 Open your browser to open url 'localhost:8081/users'. It will show..
 ```
-Showing users list
+I am responding to your API call
 ```

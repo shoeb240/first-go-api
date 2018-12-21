@@ -6,5 +6,5 @@ import (
 )
 
 func getUsers(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Showing users list")
+    fmt.Fprintf(w, "I am responding to your API call")
 }
